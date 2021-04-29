@@ -1,0 +1,41 @@
+.tab{
+  width:auto;
+}
+.tab-nav{
+  display:flex;
+}
+.tab-nav-item{
+  margin-right:2px;
+  background:#ccc;
+  color:#000;
+  padding:10px 20px;
+  text-decoration:none;
+  border-radius: 5px 5px 0 0;
+}
+
+.tab-nav-item.is-active{
+  background:green;
+  color:#fff;
+}
+.tab-contents{
+  height:1000px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+.tab-contents-item{
+  display:none;
+
+}
+.buta{
+  width:300px;
+  float:left;
+}
+
+ul{
+  float:left;
+  list-style:none;
+}
+
+ol{
+  float:left;
+}
