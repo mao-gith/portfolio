@@ -1,5 +1,5 @@
 .tab{
-  width:500px;
+  width:auto;
 }
 .tab-nav{
   display:flex;
@@ -14,7 +14,7 @@
 }
 
 .tab-nav-item.is-active{
-  background:#000;
+  background:green;
   color:#fff;
 
 }
